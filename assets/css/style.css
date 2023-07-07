@@ -2725,9 +2725,12 @@ body {
     -o-transition: .3s;
     transition: .3s
 }
-
+.new{
+    display: flex;
+    justify-content: space-between;
+}
 .header-sticky.sticky-bar {
-    background: #fff;
+    background: #000000;
     padding: 0 35px
 }
 
