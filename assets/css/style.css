@@ -2053,7 +2053,7 @@ hr {
     border-radius: 50%;
     -webkit-box-shadow: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
     box-shadow: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
-    background-color: #fff;
+    background-color: #000000;
     -webkit-animation: zoom 2000ms infinite ease;
     animation: zoom 2000ms infinite ease;
     -webkit-transition: .6s;
@@ -2081,6 +2081,16 @@ hr {
     -webkit-transition: .6s;
     -o-transition: .6s;
     transition: .6s
+}
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    background-color: rgb(0 0 0);
 }
 
 .preloader .preloader-img img {
@@ -2499,7 +2509,8 @@ hr {
     display: block;
     font-weight: 600;
     line-height: 1.2;
-    margin-bottom: 4px
+    margin-bottom: 4px;
+    color:white;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2632,7 +2643,7 @@ hr {
 }
 
 .header-area .menu-wrapper .main-menu ul li a {
-    color: #1D2547;
+    color: #ffffff;
     font-weight: 500;
     padding: 39px 19px;
     display: block;
@@ -3642,6 +3653,7 @@ hr {
     font-weight: 500;
     font-size: 20px;
     display: block;
+    color: white;
     margin-bottom: 10px;
     -webkit-transition: .3s;
     -moz-transition: .3s;
@@ -3669,7 +3681,7 @@ hr {
 }
 
 .new-arrival .single-new-arrival .popular-caption span {
-    color: #444444;
+    color: #ffffff;
     font-size: 18px;
     font-weight: 500;
     display: block
@@ -3687,7 +3699,7 @@ hr {
 }
 
 .single-new-arrival:hover .popular-caption h3 a {
-    color: inherit;
+    color: white;
     text-decoration: underline
 }
 
@@ -3936,7 +3948,7 @@ hr {
 }
 
 .footer-area {
-    background: #1D2547;
+    background: #000000;
     padding-left: 100px;
     padding-right: 100px
 }
